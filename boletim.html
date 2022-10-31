@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-Acadêmico Web para IF - Goiano Boletim</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css”>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .b-example-divider {
+            background-color: #f7f2e7;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom align-items-center">
+            <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src="img/logo-q-academico.jpg" class="rounded img-fluid" alt="Logotipo do Q-Acadêmico">
+                <span>Módulo do Aluno</span>
+            </div>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Página Inicial</a></li>
+                <div class="dropdown">
+                    <li class="nav-item"><a class="btn dropdown-toggle btn-sm nav-link" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Mais opções
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Questionários</a></li>
+                            <li><a class="dropdown-item" href="#">Pedidos de Matrícula</a></li>
+                            <li><a class="dropdown-item" href="#">Horário Individual</a></li>
+                            <li><a class="dropdown-item" href="#">Calendário Acadêmico</a></li>
+                            <li><a class="dropdown-item" href="#">Diários</a></li>
+                            <li><a class="dropdown-item" href="#">Boletim</a></li>
+                            <li><a class="dropdown-item" href="#">Estágios</a></li>
+                            <li><a class="dropdown-item" href="#">Caixa de Mensagens</a></li>
+                            <li><a class="dropdown-item" href="#">Histórico Escolar</a></li>
+                            <li><a class="dropdown-item" href="#">Medidas Disciplinares e Premiações</a></li>
+                            <li><a class="dropdown-item" href="#">Matrizes Curriculares</a></li>
+                            <li><a class="dropdown-item" href="#">Pedido de Alteração de Dados Cadastrais</a></li>
+                            <li><a class="dropdown-item" href="#">Materiais de Aula</a></li>
+                            <li><a class="dropdown-item" href="#">Alterar Senha</a></li>
+                            <li><a class="dropdown-item" href="#">Currículo Pessoal</a></li>
+                            <li><a class="dropdown-item" href="#">Atividades Complementares</a></li>
+                        </ul>
+                    </li>
+
+                </div>
+                <li class="nav-item"><a href="#" class="nav-link">Suporte</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre o Q-Acadêmico</a></li>
+            </ul>
+        </header>
+    </div>
+    <div class="pai">
+        <div class="container py-2">
+            <div class="row align-items-md-stretch">
+                <div class="mx-auto h-100 p-3 bg-light border rounded-3">
+                    <div class="card border-0 shadow my-4">
+                        <div class="card-body p-4 p-sm-4 rounded">
+                            <div class="dropdown d-grid gap-2 d-sm-flex justify-content-sm-start">
+                                <a class="btn btn-primary dropdown-toggle btn-sm" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Ano
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">2019</a></li>
+                                    <li><a class="dropdown-item" href="#">2020</a></li>
+                                    <li><a class="dropdown-item" href="#">2021</a></li>
+                                    <li><a class="dropdown-item" href="#">2022</a></li>
+                                </ul>
+                                <div class="dropdown">
+                                    <a class="btn btn-primary dropdown-toggle btn-sm" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Período
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">1</a></li>
+                                        <li><a class="dropdown-item" href="#">2</a></li>
+                                    </ul>  
+                                </div>
+                                <button type="button" class="btn btn-primary">Exibir Boletim</button><br>
+                            </div>
+
+                            <div class="text-center mb-2 pb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-file-text-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z" />
+                                </svg>
+                                <h3><b>Boletim</b></h3>
+                                <h6>(2019108203030290) Guilherme Barbosa de Oliveira Sousa – 2022/2</h6>
+                                <div class=" table-responsive-lg">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Componente Curricular</th>
+                                                <th scope="col">CH</th>
+                                                <th scope="col">Turma</th>
+                                                <th scope="col">T. Faltas</th>
+                                                <th scope="col">M Final</th>
+                                                <th scope="col">N</th>
+                                                <th scope="col">F</th>
+                                                <th scope="col">NAF</th>
+                                                <th scope="col">F</th>
+                                                <th scope="col">MF</th>
+                                                <th scope="col">Situação</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Sistemas de Controle I</th>
+                                                <td>63</td>
+                                                <td>224 - 20222.08ECP20N.8</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>0</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>Cursando</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Web Design</th>
+                                                <td>67.5</td>
+                                                <td>224 - 20222.08ECP20N.8</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>0</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>Cursando</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Estrutura de Dados II</th>
+                                                <td>60.75</td>
+                                                <td>224 - 20222.08ECP20N.8</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>0</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>Cursando</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Gestão de Projetos</th>
+                                                <td>33.75</td>
+                                                <td>224 - 20222.08ECP20N.8</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>2</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>Cursando</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Engenharia de Software</th>
+                                                <td>33.75</td>
+                                                <td>224 - 20222.08ECP20N.8</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>0</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>Cursando</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Introdução à Robótica</th>
+                                                <td>67.5</td>
+                                                <td>224 - 20222.08EEL20N.10</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>0</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>Cursando</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Engenharia de Segurança</th>
+                                                <td>33.75</td>
+                                                <td>224 - 20222.08EEL20N.8</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>0</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>Cursando</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div>
+                                <h6>Média das Disciplinas: 0,00</h6>
+                                <h6>Rendimento Global: 0,00</h6>
+                                <h6>Coeficiente de Rendimento: 8,18</h6>
+                                <h6><br> Situação: <b>Matriculado</b></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 my-3 border-top">
+                        <p class="col-md-2 mb-0 text-muted">&copy;2022 Qualidata</p>
+                        <ul class="nav col-md-2 justify-content-end align-items-center">
+                            <li class="nav-item"><a href="#" class="nav-link px-1 text-muted">Versão 4.0</a></li>
+                        </ul>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
